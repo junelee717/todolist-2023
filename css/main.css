@@ -189,9 +189,19 @@ header img {
     font-size: 16px;
 }
 
+#main .todo-list li:hover {
+    color: rgb(0, 176, 224);
+    font-size: 18px;
+}
+
 #main .todo-list i {
-    color:rgba(220,0,255,1);
+    color:rgba(220,0,255);
     padding-right: 8px;
+}
+
+#main .todo-list button:hover i {
+    color:red;
+    font-size: 18px;
 }
 
 #main .todo-list button {
